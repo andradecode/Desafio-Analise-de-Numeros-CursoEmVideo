@@ -1,0 +1,82 @@
+body {
+    background:rgb(140, 203, 214) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#geral {
+    position: relative;
+    background-image: url('_imagens/plano-fundo-3.jpg');
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1921px;
+    height: 1079px;
+    border: 1px solid black;
+}
+
+h1.title1 {
+    text-align: center;
+    font-size: 82px;
+}
+
+section.secao1 {
+    box-shadow: 2px 3px 4px black;
+    background: rgba(251, 241, 224, 0.315);
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+}
+
+div.divisao1 {
+    font-weight: bolder;
+    font-size: 22px;
+    
+}
+
+p#info1 {
+    margin: 15px;
+}
+
+input#insert {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 53px;
+}
+
+button#btn-add {
+    padding: 6px;
+    font-size: 19px;
+    background: rgb(251, 241, 224);
+    box-shadow: 2px 2px 5px black;
+}
+
+select#selecao {
+    width: 250px;
+    padding: 8px;
+    margin-left: 15px;
+    font-size: large;
+    border: 0.1px solid black;
+}
+
+button#btn-fim {
+    padding: 6px;
+    font-size: 19px;
+    margin-left: 15px;
+    background: rgb(251, 241, 224);
+    box-shadow: 2px 2px 5px black;
+}
+
+div.divisao2 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 15px;
+    background:rgba(255, 255, 255, 0.616) ;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+}
